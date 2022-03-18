@@ -1061,6 +1061,25 @@ textarea#comment::placeholder {
 .padding_top0{
     padding-top: 0px;
 }
+.qz-start-btn{
+    color: #ffffff;
+    background-color: #f2515e;
+}
 
+.qz-start-btn h5{
+    color: #ffffff;
+}
 
+.btn-outline-success1 {
+    color: #f2515e;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f2515e;
+}
+
+.btn-outline-success1:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success1.dropdown-toggle {
+    color: #fff;
+    background-color: #f2515e;
+    border-color: #f2515e;
+}
 /* copyright section end */
