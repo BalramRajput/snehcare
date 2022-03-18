@@ -29,6 +29,11 @@
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
       <!-- owl stylesheets -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
    </head>
    <body>
       <!-- header section start -->
@@ -129,6 +134,69 @@
          </div>
       </div>
       <!-- about section end -->
+
+      <div>
+         <div class="container">
+            <div class="row">
+               <div class="mt-5">
+                  <!-- First Page -->
+               <div class="row d-flex justify-content-center">
+                  <div class="col-md-8 border p-4">
+                     <div class="card-body">
+                        <h5 class="card-text float-right font-weight-bold">Quick Survey</h5>
+                        <h5>(<span id="number">0</span> of 9)</h5>
+                     </div>
+                     <hr>
+         
+                     <div class="start_page">
+                        <h3 class="text-center mb-5">Basics Questions</h3>
+                        <p>You will get yout product after all the questions. <br></p>
+                        <button class="btn btn-success d-flex mx-auto mt-4" id="btn">
+                           <br><h5>Start</h5>
+                        </button>
+                     </div>
+         
+                     <!-- QUiz Page -->
+         
+                     <div id="main">
+                        <div class="card-body">
+                           <h5 class="card-text font-weight-bold" id="question"></h5>
+         
+                        </div>
+                        <div class="col-md-12 p-4" id="options">
+                           <button class="btn btn-block btn-outline-success text-left option" id="options1"></button>
+                           <button class="btn btn-block btn-outline-success text-left option" id="options2"></button>
+                           <button class="btn btn-block btn-outline-success text-left option" id="options3" ></button>
+                           <button class="btn btn-block btn-outline-success text-left option" id="options4"></button>
+         
+                           <div class="footer p-4">
+                              <button class="btn btn-success float-left" id="prev">Previos</button>
+                              <button class="btn btn-success float-right" id="next">Next</button>
+         
+                           </div>
+                        </div>
+         
+                        <div class="d-flex justify-content-center">
+                           <button class="btn btn-primary btn-lg mx-auto" id="finish">Finish</button>
+         
+                        </div>
+         
+                     </div>
+         
+                     <!-- Result Page -->
+                     <div id="Result">
+                        <h3 class="text-center mb-5">Below Product Is Best For You</h3>
+                        <h3 class="text-center mb-5"><img src="img-2.png"></h3>
+                     </div>
+         
+                  </div>
+         
+               </div>
+            </div>
+            </div>
+         </div>
+      </div>
+
       <!-- product section start -->
       <div class="product_section layout_padding">
          <div class="container">
@@ -348,6 +416,7 @@
       <script src="https://smtpjs.com/v3/smtp.js"></script>  
       <!-- smtpjs -->
       <script src="js/email.js"></script>
+      <script src="js/questions.js"></script>
       <script>
          $('.owl-carousel').owlCarousel({
          loop:true,
@@ -366,5 +435,11 @@
          }
          })
       </script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+         crossorigin="anonymous"></script>
    </body>
 </html>

@@ -1,0 +1,65 @@
+{
+  "Questions": [
+    {
+      "Quiz": "Q.1) What kind of skin do you have ?",
+      "option1": "Normal",
+      "option2": "Oil",
+      "option3": "Dry",
+      "option4": "None",
+      "answer": "None"
+    },
+    {
+      "Quiz": "Q.2) When u get up in morning do u notice oil around your nose n face ?",
+      "option1": "Yes",
+      "option2": "No",
+      "answer": "No"
+    },
+    {
+      "Quiz": "Q.3) Do you have acne on regular basis ?",
+      "option1": "Yes",
+      "option2": "No",
+      "answer": "No"
+    },
+    {
+      "Quiz": "Q.4) Do u use any facewash ?",
+      "option1": "Yes",
+      "option2": "No",
+      "answer": "Yes"
+    },
+    {
+      "Quiz": "Q.5) Do u use sunscreen ?",
+      "option1": "Regularly",
+      "option2": "Sometimes",
+      "option3": "No",
+      "answer": "No"
+    },
+    {
+      "Quiz": "Q.6) Do u use cosmetics products ?",
+      "option1": "Frequent",
+      "option2": "Very Frequently",
+      "option3": "Sometimes",
+      "answer": "Sometimes"
+    },
+    {
+      "Quiz": "Q.7) Have u taken treatment ever before this ?",
+      "option1": "Yes",
+      "option2": "No",
+      "answer": "No"
+    },
+    {
+      "Quiz": "Q.8) For how Long ?",
+      "option1": "2-3 months",
+      "option2": "5-6 months",
+      "option3": "More than 6 months",
+      "answer": "More than 6 months"
+    },
+    {
+      "Quiz": "Q.9) Do u have any past medical illness ?",
+      "option1": "Thyroid",
+      "option2": "Diabetes",
+      "option3": "Hypertension",
+      "option4": "Any other",
+      "answer": "Sometimes"
+    }
+  ]
+}
