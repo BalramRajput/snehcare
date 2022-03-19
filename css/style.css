@@ -1077,7 +1077,7 @@ textarea#comment::placeholder {
     border-color: #f2515e;
 }
 
-.btn-outline-success1:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success1.dropdown-toggle {
+.btn-outline-success1:not(:disabled):not(.disabled).active, .btn-outline-success1:not(:disabled):not(.disabled):active, .show>.btn-outline-success1.dropdown-toggle {
     color: #fff;
     background-color: #f2515e;
     border-color: #f2515e;
