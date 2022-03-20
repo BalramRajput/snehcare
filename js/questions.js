@@ -1,10 +1,7 @@
 		// Variables
-
 		var count = 0;
-		var time = 50;
 		var marks = 0;
 		var answer = [];
-		var timer;
 
 		//    Main Ready funtion
 
@@ -92,7 +89,7 @@
 				$('#percentage').text((marks / 25) * 100 + "%");
 
 				$("#Result").show();
-			}
+			}	
 			$("#options").hide();
 
 			// Attach API
@@ -107,21 +104,6 @@
 						adding_Questions(data.Questions, count);
 						$('.start_page').hide();
 						$('#prev').hide();
-
-						timer = setInterval(timer_function, 1000);
-
-						function timer_function() {
-							$('#time').text(time);
-							if (time < 1) {
-								clearInterval(timer);
-								alert("Out of time");
-								creating_result(data);
-								$("#main").hide();
-								$("#result").show();
-							}
-							time--;
-						}
-
 					});
 
 					// Select Option
@@ -166,7 +148,6 @@
 						}
 						else {
 							creating_result(data);
-							clearInterval(timer);
 						}
 					});
 

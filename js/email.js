@@ -25,8 +25,8 @@ function sendEmail(){
                  "Message : " + message + "<br/>";
     Email.send({
         SecureToken : '5cfa90d3-7d4a-4fcc-b751-302a1943b841',
-       // To : 'Thesnehcarecompany@gmail.com',
-        To : 'balram.rajput505@gmail.com',
+        To : 'Thesnehcarecompany@gmail.com',
+        //To : 'balram.rajput505@gmail.com',
 		From : 'snehacare12@gmail.com',
 		Subject : "Sneh Care Contact us!",
 		Body : body,    
